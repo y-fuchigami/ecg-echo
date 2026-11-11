@@ -24,6 +24,6 @@ Rscript 1_prepare.R && Rscript 2_analyze.R && Rscript 3_tables.R
 
 CSV output `data_processed/`, `results/`, `tables/`
 
-Without the manual review CSV, the script stops after S5. / 手動判定CSVがなければS5まで。S6〜S8は出力されません
+Without the manual review CSV, the script stops after S5. / 手動判定CSVがない場合はS5まで出力
 
 [Supporting Information (S6, S7)](https://pmc.ncbi.nlm.nih.gov/articles/PMC13358884/#_adsm93_)
